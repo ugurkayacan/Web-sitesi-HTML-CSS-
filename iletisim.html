@@ -1,0 +1,167 @@
+<html>
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="iletisim_style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Bilgilendirme.com</title>
+</head><!--head-->
+<body>
+<div id="Genel">
+    <div id="Header">
+    <div id="Login">
+
+        <div id="LoginForm">
+                <div id="Text">       
+                    <div class="Tf">e-mail:</div><!--Tf1-->
+                    <div class="Tf">Şifre:</div><!--Tf2-->
+                
+                </div><!--Text-->
+                <div id="Form">
+                    <form action="" method="post">
+                    <div class="Tf"><input type="email" class="log" name="e-mail" required></div><!--Tf1-->
+                    <div class="Tf"><input type="text" class="log" name="Sifre" required></div><!--Tf2-->
+                    <div class="Tf"><button class="log">Giriş yap</button></div><!--Tf3-->
+                </form>
+            </div><!--Form-->
+        </div><!--LoginForm-->
+    </div><!--Login-->
+    <div id="Baslik">
+
+        <div id="TextBaslik"><h1>BİLGİLENDİRME</h1></div><!--TextBaslik-->
+
+
+    </div><!--Baslik-->
+    <div id="Menu">
+
+        <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="kilavuz.html">Kılavuz</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+            <li><a href="islerim.html">İşlerim</a></li>
+        
+            
+        </ul>
+
+
+    </div><!--Menu-->
+
+    </div><!--Header-->
+    <div id="Content">
+       <div id="İletisim_baslik"><h1>İletişime geçin:</h1></div><!--İletisim_baslik-->
+       <div id="genel_form">
+
+            <div id="text_form">
+                    <div class="form_text"><p>İleti göndermek istediğiniz Birim:</p></div><!--birim-->
+                    <div class="form_text"><p>İsim:</p></div><!--ad-->
+                    <div class="form_text"><p>Soy İsim:</p></div><!--soyad-->
+                    <div class="form_text"><p>e-posta:</p></div><!--e-posta-->
+                    <div class="form_text"><p>Telefon numarası:</p></div><!--telefon-->
+                    <div class="form_text"><p>İleti:</p></div><!--ileti-->
+
+
+            </div><!--text_form-->
+            <div id="form_eleman">
+                <form action="" method="post">
+                    <div class="form"><select class="log-iletisim" style="width: 200px;"><option>Yönetim</option><option>Veri Tabanı</option><option>Gömülü Sitemler</option><option>Bilgisayar Ağları</option><option>Web Tasarım</option><option>Bilgilendirme</option></select></div><!--ad-->
+                    <div class="form"><input type="text" class="log-iletisim" name="name" required></div><!--ad-->
+                    <div class="form"><input type="text" class="log-iletisim" name="surname" required></div><!--soyad-->
+                    <div class="form"><p><input type="email" class="log-iletisim" name="mail" required></div><!--e-posta-->
+                    <div class="form"><input type="text" class="log-iletisim" name="tel" required></div><!--telefon-->
+                    <div class="form" id="form-text" ><textarea cols="40" rows="5" required></textarea></div><!--ileti-->
+                    <div class="form" ><button>GÖNDER</button></div><!--ileti-->
+                </form>
+
+
+            </div><!--form_eleman-->
+
+
+
+       </div><!--genel_form-->
+
+       <div id="Gelen_kutusu">
+
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;Gelen Kutusu:</h1>
+
+            <div id="Posta_kutusu">
+
+                <table border="5">
+                    <tr>
+                   
+                        <td>Sıra</td>
+                        <td>Geliş Tarihi</td>
+                        <td>Geldiği Birim</td>
+                        <td>Konu</td>
+                        <td style="background-color:darkslategray"></td>
+                    </tr>
+                    <tr>
+                     
+                        <td>1</td>
+                        <td>15.4.2024</td>
+                        <td>Yönetim</td>
+                        <td>İş Toplantısı</td>
+                        <td><button style="width: 55px;">Oku</button></td>
+                    
+                    </tr>
+                
+                    
+                    </table>
+                    
+                    <table border="5">
+                        <tr>
+                       
+                            <td>Sıra</td>
+                            <td>Geliş Tarihi</td>
+                            <td>Geldiği Birim</td>
+                            <td>Konu</td>
+                            <td style="background-color:darkslategray"></td>
+                        </tr>
+                        <br>
+                        <tr>
+                         
+                            <td>2</td>
+                            <td>19.4.2024</td>
+                            <td>Ekip Lideri</td>
+                            <td>İş Toplantısı</td>
+                            <td><button style="width: 55px;">Oku</button></td>
+                        
+                        </tr>
+                    
+                        
+                        </table>
+                        <br>
+                        <table border="5">
+                            <tr>
+                           
+                                <td>Sıra</td>
+                                <td>Geliş Tarihi</td>
+                                <td>Geldiği Birim</td>
+                                <td>Konu</td>
+                                <td style="background-color:darkslategray"></td>
+                            </tr>
+                            <tr>
+                             
+                                <td>3</td>
+                                <td>21.4.2024</td>
+                                <td>Yönetim</td>
+                                <td>İş Toplantısı</td>
+                                <td><button style="width: 55px;">Oku</button></td>
+                            
+                            </tr>
+                        
+                            
+                            </table>
+        
+    
+
+
+            </div><!--Posta_kutusu-->
+
+       </div><!--Gelen_Kutusu-->
+   
+    </div><!--Content-->
+  
+    <div id="Footer"><p>Tüm hakları saklıdır-Bilgilendirme</p></div><!--Footer--> 
+</div><!--Genel-->
+
+</body>
+</html>

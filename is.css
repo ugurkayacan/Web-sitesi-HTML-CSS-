@@ -1,0 +1,72 @@
+table{
+
+text-align: center;
+margin: auto;
+
+    
+}
+#isler_baslik{
+
+    width: 1000px;
+    height: 90px;
+    text-align: center;
+
+}
+#is_icerik{
+
+
+    width: 1000px;
+    height: 100px;
+
+   
+  
+}
+#is_form{
+
+
+    width: 1000px;
+    height: auto;
+
+    padding-top: 50px;
+}
+#is_text{
+
+
+    width: 200px;
+    height: 15px;
+    font-weight: bold;
+    
+    float: left;
+    margin-left: 300px;
+
+}
+#is_text p{
+    display: inline;
+}
+#form-is{
+
+    width: 200px;
+    height: auto;
+
+   
+    float: left;
+
+
+}
+#uyarı{
+
+    width: 300px;
+    height: 90px;
+
+    margin-top: 150px;
+    margin-left: 400px;
+    color: red;
+    text-align: center;
+
+}
+#uyarı p{
+
+display: inline;
+margin-top: -5px;
+
+}

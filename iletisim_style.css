@@ -1,0 +1,110 @@
+#Content{
+
+    width: 1000px;
+    height: auto;
+    background-color:white;
+    
+    }
+
+#İletisim_baslik{
+
+width: 1000px;
+height: 70px;
+background-color:white;
+
+
+}
+#İletisim_baslik h1{
+
+
+    margin-left: 15px;
+}
+#genel_form{
+
+
+    width: 1000px;
+    height: 500px;
+    background-color:white;
+}
+#text_form{
+
+
+    width: 450px;
+    height: 500px;
+    background-color:white;
+    float: left;
+}
+#form_eleman{
+
+    width: 500px;
+    height: 500px;
+    background-color:white;
+    float: left;
+
+
+}
+.form_text{
+
+
+    width: 450px;
+    height: 50px;
+    text-align: right;
+    font-weight:bold;
+    font-size: large;
+    margin-top: 15px;
+  
+
+}
+.form_text p{
+ display: inline;
+
+}
+.form{
+    width: 500px;
+    height: 50px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 15px;
+
+
+}
+button{
+
+
+    width: 320px;
+    background-color: orange;
+    margin-top: 0px;
+}
+#log-iletisim-text{
+
+
+    height: 100px;
+}
+#form-text{
+
+
+    height: auto;
+}
+#Gelen_kutusu{
+
+    width:1000px ;
+    height: 400px;
+   
+
+
+}
+#Posta_kutusu{
+
+    width: 1000px;
+    height: 250px;
+    
+
+}
+table{
+
+
+    margin: auto;
+}
+tr{
+    text-align: center;
+}

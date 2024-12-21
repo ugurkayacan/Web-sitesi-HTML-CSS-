@@ -1,0 +1,23 @@
+#kilavuz_baslik{
+
+
+    width: 1000px;
+    height: 70px;
+ 
+    text-align: center;
+}
+#kilavuz_icerik{
+
+width: 960px;
+height: 190px;
+padding:20px;
+
+    
+    
+}
+#icerik{
+
+    width: 1000px;
+    height: 300px;
+
+}
